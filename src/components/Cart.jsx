@@ -15,7 +15,7 @@ export const Cart = ()=> {
 
     return(
         <ul>
-            <link to="/user">
+            <link to="/users">
         </ul>
     )
 
