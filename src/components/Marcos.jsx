@@ -57,7 +57,7 @@ export function Marcos() {
             <div class="expertiseInfo" id="expertise">
         <p><b>EXPERTISE</b></p>
         
-            <p>Insert programing languages, software used</p>
+            <p>Insert programming languages, software used</p>
         
         </div>
 
