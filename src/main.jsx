@@ -5,7 +5,13 @@ import "./index.css";
 import { RootLayout } from "./layouts/RootLayout.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter([{ path: "/", element: <RootLayout /> }]);
+const router = createBrowserRouter([
+{path: "/", element: <RootLayout />,
+children:[
+  {
+    path:"/",element:<App/>,},{path: "/about",element:<About/>,},]},
+{
+  path:"/cart",element:<Cart/>,loader:loader}])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
